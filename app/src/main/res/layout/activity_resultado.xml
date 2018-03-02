@@ -33,6 +33,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
+        android:id="@+id/ivStatusIMC"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -49,7 +50,7 @@
         app:layout_constraintVertical_bias="0.037" />
 
     <ImageView
-        android:id="@+id/tvStatuIMC"
+        android:id="@+id/tvStatusIMC"
         android:layout_width="50dp"
         android:layout_height="153dp"
         android:layout_marginBottom="24dp"
